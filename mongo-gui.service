@@ -1,0 +1,19 @@
+[Unit]
+Description=Mongo GUI
+After=mongod.service
+
+[Service]
+User=mongo-gui
+Group=mongo-gui
+Type=simple
+WorkingDirectory=/opt/mongo-gui/
+ExecStart=/bin/bash /opt/mongo-gui/start.sh
+Restart=always
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=mongo-gui
+SyslogFacility=local0
+SyslogLevel=info
+
+[Install]
+WantedBy=multi-user.target

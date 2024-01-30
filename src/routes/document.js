@@ -36,6 +36,6 @@ router.post('/delete', documentCtrl.deleteOne);
 router.post('/aggregate', documentCtrl.aggregate);
 
 // generate query from prompt
-router.post('/generate-query', documentCtrl.generateQuery);
+//router.post('/generate-query', documentCtrl.generateQuery);
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const ObjectID = require('mongodb').ObjectID;
 const EJSON = require('bson').EJSON;
-const openai = require('../services/openai');  
+//const openai = require('../services/openai');  
 const Model = require('../models');
 
 
@@ -222,5 +222,5 @@ module.exports = {
   stats,
   count,
   aggregate,
-  generateQuery,
+  // generateQuery,
 };

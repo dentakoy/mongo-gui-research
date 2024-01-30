@@ -34,9 +34,12 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.17.1",
+    "https": "^1.0.0",
     "minimist": "^1.2.5",
     "mongodb": "^3.6.4",
-    "openai": "^4.6.0"
+    "openai": "^4.6.0",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
   },
   "bin": {
     "mongo-gui": "./server.js"
